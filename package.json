@@ -1,0 +1,30 @@
+{
+  "author": "JManuel Rodríguez <jmrodriguez90@correo.ugr.es> (https://github.com/jmrodriguez90)",
+  "name": "Prueba",
+  "description": "Calificar empresas",
+  "version": "0.0.1",
+  "private": true,
+  "license": "GPL-2.0",
+  "repository": {
+    "url": "https://github.com/jmrodriguez90/CalificarEmpresas.git"
+  },
+  "main": "./src/testCalificarEmpresas.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": ">=0.0.1",
+    "sqlite3": ">=3.0"
+  },
+  "devDependencies": {
+    "docco": "^0.7.0",
+    "grunt": "^0.4.5",
+    "grunt-docco": "^0.4.0",
+    "mocha": "^2.3.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  }
+}
